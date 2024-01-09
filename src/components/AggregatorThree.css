@@ -1,0 +1,52 @@
+.aggregator-three-container{
+    background: linear-gradient(to right, black, #211F2E);
+    color: grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aggregator-three-container h1{
+    font-size: 55px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: -2%;
+}
+
+.head-div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.content-div{
+    padding: 5% 0;
+    width: 39%;
+}
+
+.content-div p{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5% 0;
+    width: 90%;
+}
+
+#first-p{
+    margin: 0 0 8%;
+}
+
+.sliders{
+    width: 90%;
+    text-align: center;
+}
+
+.img-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider-image{
+    width: 550px;
+    border-radius: 60px;
+}

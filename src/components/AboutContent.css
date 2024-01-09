@@ -1,0 +1,91 @@
+.about-container{
+    background-color: white;
+    padding-bottom: 0.1%;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+.titles{
+    font-size: 55px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 5%;
+    padding-right: 20%;
+    letter-spacing: 2px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 0% 0% 4%;
+    width: 65.5%;
+}
+
+.info-box{
+    padding-right: 13%;
+    padding-top: 3%;
+}
+
+.info-box big{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    color: rgb(85, 85, 85);
+}
+
+#solution{
+    padding-top: 15%;
+}
+
+#solution h1{
+    font-size: 45px;
+    padding-right: 5%;
+}
+
+#line{
+    margin: 4% 4.5% 9%;
+    width: 80%;
+    border: 1px solid rgb(196, 196, 196);
+    z-index: 5;
+}
+
+.cube-animation{
+    width: 40%;
+}
+
+.cube-image{
+    width: 800px;
+    height: 550px;
+    background-image: url("C:\Users\harsh\OneDrive\Desktop\Web\Projects\NFD_Clone\clone\public\videoBg.png");
+    background-size: cover;
+    text-align: center;
+    margin-top: 8%;
+}
+
+#cube-video{
+    margin-top: -10%;
+    /* z-index: 10; */
+}
+
+#cover-div{
+    width: 37.8%;
+    background-color: white;
+    padding-bottom: 3%;
+}
+
+.bottom-box{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: 5% 0 10% 4%;
+    border-radius: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    z-index: 1;
+    padding-left: 0.8%;
+    box-shadow: 5px 5px 5px rgb(225, 224, 224), -5px -5px 5px rgb(225, 224, 224), -5px 5px 5px rgb(225, 224, 224), 5px -5px 5px rgb(225, 224, 224);
+}
+
+#logo-bottom{
+    width: 12%;
+    padding: 1.5%;
+}
